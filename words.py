@@ -554,7 +554,6 @@ word_replacements = {
     "coexistencia": "coexistência",
     "preponderancia": "preponderância",
     "fatidico": "fatídico",
-    "vo": "vó",
     "maquiavelico": "maquiavélico",
     "recondito": "recôndito",
     "proprio": "próprio",
