@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import keyboard
 import pyautogui
 from pynput.keyboard import Controller
