@@ -27,9 +27,8 @@ def on_key_event(e):
             typed_string = typed_string[:-1]  # Remove the last 
         elif e.name == 'space':
             typed_string = ''
-            print('here')
         elif e.name not in ignored_keys:
             typed_string += e.name
 
 keyboard.hook(on_key_event)
-keyboard.wait("esc")
+keyboard.wait()

@@ -1,4 +1,5 @@
 word_replacements = {
+    "ee":"é",
     "nao": "não",
     "agua": "água",
     "coracao": "coração",
