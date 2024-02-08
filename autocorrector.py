@@ -23,6 +23,7 @@ def on_key_event(e):
             text = replace_words(typed_string) + ' '
             pyautogui.hotkey('ctrl', 'backspace')
             Controller().type(text)
+            print("overwrite", typed_string, "->", text)
             typed_string = ''
         elif e.name == 'backspace':
             typed_string = typed_string[:-1]  # Remove the last 
