@@ -1,4 +1,13 @@
 word_replacements = {
+    "seguranca":"segurança",
+    "disposicao":"disposição",
+    "horario":"horário",
+    "computacao":"computação",
+    "matematica":"matemática",
+    "filosofico":"filosófico",
+    "valido":"válido",
+    "raciocinio":"raciocínio",
+    "logica":"lógica",
     "formularios":"formulários",
     "formulario":"formulário",
     "implementacao":"implementação",
