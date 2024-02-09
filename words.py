@@ -1,4 +1,13 @@
 word_replacements = {
+    "formularios":"formulários",
+    "formulario":"formulário",
+    "implementacao":"implementação",
+    "extraidas":"extraídas",
+    "colecao":"coleção",
+    "conclusoes":"conclusões",
+    "informacao":"informação",
+    "entao":"então",
+    "marcacoes":"marcações",
     "apresentacoes":"apresentações",
     "apresentacao":"apresentação",
     "retificacoes":"retificações",
