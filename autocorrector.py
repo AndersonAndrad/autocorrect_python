@@ -3,13 +3,15 @@ import keyboard
 import pyautogui
 from pynput.keyboard import Controller
 from words import *
+import re
 
 ignored_keys = ['ctrl', 'alt', 'shift', 'tab', 'centerentedowndowny/', 'up', 'down', 'left', 'right']
 typed_string = ""
 
 def replace_words(s):
     for word, replacement in word_replacements.items():
-        s = s.replace(word, replacement)
+        pattern = r'\b' + re.escape(word) + r'\b'
+        s = re.sub(pattern, replacement, s)
     return s
 
 def check_words(s):
